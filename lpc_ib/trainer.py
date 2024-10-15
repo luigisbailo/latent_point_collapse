@@ -299,8 +299,8 @@ class Trainer():
                 res_dict_stack['odin_score_tpt'] = odin_score_tpt
                 res_dict_stack['entropy_train_tpt'] = entropy_train_tpt 
                 res_dict_stack['entropy_test_tpt'] = entropy_test_tpt 
-                res_dict_stack['coeff_var_train_tpt'] = entropy_train_tpt 
-                res_dict_stack['coeff_var_test_tpt'] = entropy_test_tpt 
+                res_dict_stack['coeff_var_train_tpt'] = coeff_var_train_tpt 
+                res_dict_stack['coeff_var_test_tpt'] = coeff_var_test_tpt 
                 res_dict_stack['deepfool_score_tpt'] = deepfool_score_tpt
 
             if self.store_penultimate:
